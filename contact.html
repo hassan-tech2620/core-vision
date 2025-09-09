@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CoreVision Technology Solutions</title>
+    <meta name="description" content="Get in touch with CoreVision for your technology needs. Contact our experts for consultations, support, and custom solutions.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cpu"></i> CoreVision
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary-custom ms-2" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="page-title">Contact CoreVision</h1>
+                    <p class="page-subtitle">
+                        Ready to transform your business? Get in touch with our experts to discuss your technology needs and discover how we can help you achieve your goals.
+                    </p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h5>Visit Our Office</h5>
+                        <p>123 Technology Drive<br>Silicon Valley, CA 94025<br>United States</p>
+                        <a href="#" class="contact-link">Get Directions <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h5>Call Us</h5>
+                        <p>Main: +1 (555) 123-4567<br>Support: +1 (555) 123-4568<br>Sales: +1 (555) 123-4569</p>
+                        <a href="tel:+15551234567" class="contact-link">Call Now <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-card animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h5>Email Us</h5>
+                        <p>General: info@corevision.com<br>Support: support@corevision.com<br>Sales: sales@corevision.com</p>
+                        <a href="mailto:info@corevision.com" class="contact-link">Send Email <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-wrapper">
+                        <div class="text-center mb-5">
+                            <h2 class="section-title">Send Us a Message</h2>
+                            <p class="section-subtitle">
+                                Fill out the form below and our team will get back to you within 24 hours.
+                            </p>
+                        </div>
+                        <form id="contactForm" class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    <div class="invalid-feedback">Please provide your first name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    <div class="invalid-feedback">Please provide your last name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please provide a valid email address.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="company" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control" id="company" name="company">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="service" class="form-label">Service Interest</label>
+                                    <select class="form-control" id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="cloud">Cloud Computing</option>
+                                        <option value="security">Cybersecurity</option>
+                                        <option value="ai">AI & Machine Learning</option>
+                                        <option value="analytics">Data Analytics</option>
+                                        <option value="software">Custom Software</option>
+                                        <option value="consulting">IT Consulting</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                    <div class="invalid-feedback">Please provide a subject.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="6" required placeholder="Tell us about your project requirements, timeline, and any specific questions you have..."></textarea>
+                                    <div class="invalid-feedback">Please provide a message.</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                                        <label class="form-check-label" for="newsletter">
+                                            Subscribe to our newsletter for technology insights and updates
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required>
+                                        <label class="form-check-label" for="privacy">
+                                            I agree to the <a href="#" class="text-primary">Privacy Policy</a> and <a href="#" class="text-primary">Terms of Service</a> *
+                                        </label>
+                                        <div class="invalid-feedback">You must agree to the privacy policy.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary-custom btn-lg">
+                                        <span class="btn-text">Send Message</span>
+                                        <span class="btn-loading d-none">
+                                            <i class="bi bi-hourglass-split me-2"></i>Sending...
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="formSuccess" class="alert alert-success mt-4 d-none">
+                            <i class="bi bi-check-circle me-2"></i>
+                            Thank you for your message! We'll get back to you within 24 hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="section-title">Our Global Offices</h2>
+                    <p class="section-subtitle">
+                        With offices across three continents, we're always close to our clients and ready to provide local support.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="office-card animate-on-scroll">
+                        <div class="office-image">
+                            <img src="assets/images/office.jpg" alt="Silicon Valley Office" class="img-fluid">
+                            <div class="office-badge">Headquarters</div>
+                        </div>
+                        <div class="office-info">
+                            <h5>Silicon Valley, USA</h5>
+                            <p class="office-address">
+                                <i class="bi bi-geo-alt me-2"></i>
+                                123 Technology Drive<br>
+                                Silicon Valley, CA 94025
+                            </p>
+                            <p class="office-contact">
+                                <i class="bi bi-telephone me-2"></i>+1 (555) 123-4567<br>
+                                <i class="bi bi-envelope me-2"></i>usa@corevision.com
+                            </p>
+                            <div class="office-hours">
+                                <strong>Business Hours:</strong><br>
+                                Mon-Fri: 8:00 AM - 6:00 PM PST
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="office-card animate-on-scroll">
+                        <div class="office-image">
+                            <img src="assets/images/office.jpg" alt="London Office" class="img-fluid">
+                        </div>
+                        <div class="office-info">
+                            <h5>London, UK</h5>
+                            <p class="office-address">
+                                <i class="bi bi-geo-alt me-2"></i>
+                                45 Tech Square<br>
+                                London EC2A 4DN, UK
+                            </p>
+                            <p class="office-contact">
+                                <i class="bi bi-telephone me-2"></i>+44 20 7123 4567<br>
+                                <i class="bi bi-envelope me-2"></i>uk@corevision.com
+                            </p>
+                            <div class="office-hours">
+                                <strong>Business Hours:</strong><br>
+                                Mon-Fri: 9:00 AM - 5:00 PM GMT
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="office-card animate-on-scroll">
+                        <div class="office-image">
+                            <img src="assets/images/office.jpg" alt="Singapore Office" class="img-fluid">
+                        </div>
+                        <div class="office-info">
+                            <h5>Singapore</h5>
+                            <p class="office-address">
+                                <i class="bi bi-geo-alt me-2"></i>
+                                88 Innovation Hub<br>
+                                Singapore 018956
+                            </p>
+                            <p class="office-contact">
+                                <i class="bi bi-telephone me-2"></i>+65 6123 4567<br>
+                                <i class="bi bi-envelope me-2"></i>sg@corevision.com
+                            </p>
+                            <div class="office-hours">
+                                <strong>Business Hours:</strong><br>
+                                Mon-Fri: 9:00 AM - 6:00 PM SGT
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Options -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="section-title">Need Immediate Support?</h2>
+                    <p class="section-subtitle">
+                        Choose the support option that best fits your needs. Our team is available 24/7 for critical issues.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-card animate-on-scroll">
+                        <div class="support-icon">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+                        <h5>Live Chat</h5>
+                        <p>Get instant help from our support team</p>
+                        <button class="btn btn-outline-primary" onclick="openLiveChat()">Start Chat</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-card animate-on-scroll">
+                        <div class="support-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h5>Phone Support</h5>
+                        <p>Speak directly with our experts</p>
+                        <a href="tel:+15551234568" class="btn btn-outline-primary">Call Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-card animate-on-scroll">
+                        <div class="support-icon">
+                            <i class="bi bi-ticket"></i>
+                        </div>
+                        <h5>Support Ticket</h5>
+                        <p>Submit a detailed support request</p>
+                        <button class="btn btn-outline-primary" onclick="openTicketForm()">Create Ticket</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="support-card animate-on-scroll">
+                        <div class="support-icon">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h5>Knowledge Base</h5>
+                        <p>Find answers in our documentation</p>
+                        <a href="faq.html" class="btn btn-outline-primary">Browse FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <h5><i class="bi bi-cpu me-2"></i>CoreVision</h5>
+                        <p class="mb-3">Transforming businesses through innovative technology solutions and exceptional service. Your trusted partner for digital transformation.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="services.html#cloud">Cloud Computing</a></li>
+                        <li><a href="services.html#security">Cybersecurity</a></li>
+                        <li><a href="services.html#ai">AI & ML</a></li>
+                        <li><a href="services.html#analytics">Data Analytics</a></li>
+                        <li><a href="services.html#software">Custom Software</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="blog.html">Documentation</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Case Studies</a></li>
+                        <li><a href="blog.html">Whitepapers</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="footer-title">Legal</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR Compliance</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">&copy; 2024 CoreVision Technologies. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="made-with">Made with <i class="bi bi-heart-fill text-danger"></i> for innovation</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
